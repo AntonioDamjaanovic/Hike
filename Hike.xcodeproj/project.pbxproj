@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A9B042392EFDC38100504EAC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A9B042382EFDC38100504EAC /* .gitignore */; };
+		A9B0423D2EFDC3AF00504EAC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9B0423C2EFDC3AF00504EAC /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		A9B042382EFDC38100504EAC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A9B0423C2EFDC3AF00504EAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A9C38D2D2EFAA56C00E6CA8E /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +39,8 @@
 		A9C38D242EFAA56C00E6CA8E = {
 			isa = PBXGroup;
 			children = (
+				A9B0423C2EFDC3AF00504EAC /* README.md */,
+				A9B042382EFDC38100504EAC /* .gitignore */,
 				A9C38D2F2EFAA56C00E6CA8E /* Hike */,
 				A9C38D2E2EFAA56C00E6CA8E /* Products */,
 			);
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B0423D2EFDC3AF00504EAC /* README.md in Resources */,
+				A9B042392EFDC38100504EAC /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +260,10 @@
 		A9C38D392EFAA56C00E6CA8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "Campfire AppIcon-Backpack AppIcon-Camera AppIcon-Mushroom AppIcon-Map AppIcon-MagnifyingGlass";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3G34T24X5S;
@@ -281,8 +294,10 @@
 		A9C38D3A2EFAA56C00E6CA8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "Campfire AppIcon-Backpack AppIcon-Camera AppIcon-Mushroom AppIcon-Map AppIcon-MagnifyingGlass";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3G34T24X5S;
